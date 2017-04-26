@@ -1,0 +1,177 @@
+body {
+    font-family: 'Lato';
+}
+a, a:hover, a:visited, a:active, a:link{
+    text-decoration: none;
+}
+.fa-btn {
+    margin-right: 6px;
+}
+.navbar{
+    background-color: #FFFFFF;
+    border: none;
+}
+#logo-truyennet{
+    color: #4CCFC1;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+#search-box{
+    width: 200px;
+    border:1px solid #e3e3e3;
+    padding-right: 30px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 26px;
+}
+
+#search-submit{
+    position: relative;
+    padding-top: 2px;
+    top: -30px;
+    right: -170px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    color: #e3e3e3
+}
+#header-line{
+    color: #4CCFC1;
+}
+#section-breadcrumb{
+    margin-top: -40px;
+}
+
+.img-responsive{
+    margin: 0 auto;
+}
+.top-img{
+    height: 396px;
+    width: 265px;
+}
+
+.item{
+    margin-top: 10px;
+}
+.caption-book-number-one{
+    text-align: center;
+}
+.caption-book-number-one h4{
+    font-weight: 600;
+    font-size: 1em;
+    color: #808080;
+}
+.caption-book-number-one small{
+    color: #FFFFFF;
+}
+
+.caption-book{
+    text-align: center;
+}
+.caption-book h4{
+    font-weight: 600;
+    font-size: .6em;
+    color: #808080;
+    margin-top: 2.5px;
+    margin-bottom: 1px;
+}
+.caption-book small{
+    font-size: .5em;
+    color: #FFFFFF;
+}
+
+.remove-recent{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0.6em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 560px){
+    #search-box{
+        width: 520px;
+        padding-right: 30px;
+    }
+
+    #search-submit{
+        right: -490px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .dropdown-large{
+        width: 600px;
+    }
+
+    .dropdown-medium{
+        width: 400px;
+    }
+    .dropdown-medium>li{
+        margin-top: 35px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dropdown-large>li{
+        width: 32%;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dropdown-large>li>a{
+
+    }
+    #search-box{
+        width: 200px;
+        padding-right: 25px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    #search-box:focus{
+        width: 200px;
+    }
+    #search-submit{
+        top: 1.5px;
+        left: -30px;
+    }
+
+    .item{
+        margin-top: 10px;
+    }
+    .caption-book-number-one h4{
+        font-size: 1em;
+    }
+    .caption-book h4{
+        font-size: .6em;
+    }
+    .caption-book small{
+        font-size: .5em;
+    }
+}
+@media (min-width: 992px) {
+    #search-box:focus{
+        width: 400px;
+    }
+    .caption-book-number-one h4{
+        font-size: 1.5em;
+    }
+
+    .caption-book h4{
+        font-size: .8em;
+    }
+    .caption-book small{
+        font-size: .7em;
+    }
+    #recent div{
+        margin: auto 0;
+        padding: 0;
+    }
+    #recent{
+        font-size: 0.8em;
+    }
+}
+
+

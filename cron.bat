@@ -1,0 +1,1 @@
+START cmd.exe /k"cd D:\wamp64\www\truyennet & php artisan crawler-link:start"
